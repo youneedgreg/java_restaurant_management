@@ -31,3 +31,11 @@ Includes visually appealing forms and dialog windows.
 Database Integration :
 MySQL database (restaurant_db) stores all data.
 Efficient data retrieval and manipulation using JDBC.
+
+# Technologies Used
+Programming Language : Java
+Database : MySQL
+IDE : Apache NetBeans
+GUI Framework : Java Swing (with WindowBuilder)
+Database Driver : MySQL Connector/J
+Design Principles : Object-Oriented Programming (OOP)
