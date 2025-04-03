@@ -74,3 +74,23 @@ The login form will appear. Use the default credentials:
 Username : admin
 Password : password
 Explore the system's features through the GUI.
+
+# Project structure
+RestaurantManagementSystem/
+├── src/
+│   ├── com.restaurant.management/
+│   │   ├── DatabaseConnection.java    # Handles MySQL connection
+│   │   ├── UserAuth.java              # Manages user authentication
+│   │   ├── MenuManager.java           # Handles menu-related operations
+│   │   ├── OrderManager.java          # Manages order placement and processing
+│   │   ├── CustomerManager.java       # Handles customer-related operations
+│   │   ├── MainApp.java               # Entry point of the application
+│   │   └── gui/
+│   │       ├── LoginForm.java         # Login form
+│   │       ├── MainForm.java          # Main application window
+│   │       ├── MenuForm.java          # Menu management form
+│   │       ├── OrderForm.java         # Order management form
+│   │       └── ReportForm.java        # Sales report generation form
+├── db_script.sql                      # SQL script for database setup
+└── README.md                          # This file
+
