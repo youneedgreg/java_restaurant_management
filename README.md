@@ -94,3 +94,18 @@ RestaurantManagementSystem/
 ├── db_script.sql                      # SQL script for database setup
 └── README.md                          # This file
 
+# Usage
+Login : Enter valid credentials to access the system.
+Menu Management : Add, update, or delete menu items.
+Place Orders : Select items, specify quantities, and calculate totals.
+Customer Management : Add new customers or view existing ones.
+Generate Reports : View sales summaries and export them if needed.
+
+# Screenshots
+Include screenshots of the GUI here to give users a visual idea of the application. For example:
+
+Login Form
+Main Dashboard
+Menu Management
+Order Placement
+Sales Report
