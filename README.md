@@ -105,7 +105,9 @@ Generate Reports : View sales summaries and export them if needed.
 Include screenshots of the GUI here to give users a visual idea of the application. For example:
 
 Login Form
-Main Dashboard
+SignUp form
+SignUp success
+Admin Dashboard
 Menu Management
 Order Placement
 Sales Report
