@@ -499,7 +499,7 @@ public class Product extends javax.swing.JFrame {
     int productId = ThreadLocalRandom.current().nextInt(100, 10000); // Adjust the range as needed
 
     // Database connection parameters
-    String url = "jdbc:mysql://localhost/rms";
+    String url = "jdbc:mysql://localhost/rms?useSSL=false";
     String username = "root";
     String password = "";
 
@@ -565,7 +565,7 @@ public class Product extends javax.swing.JFrame {
     File selectedFile = fileChooser.getSelectedFile();
 
     // Database connection parameters
-    String url = "jdbc:mysql://localhost/rms";
+    String url = "jdbc:mysql://localhost/rms?useSSL=false";
     String username = "root";
     String password = "";
 
@@ -618,7 +618,7 @@ public class Product extends javax.swing.JFrame {
     String productCategory = (String) category.getSelectedItem();
 
     // Database connection parameters
-    String url = "jdbc:mysql://localhost/rms";
+    String url = "jdbc:mysql://localhost/rms?useSSL=false";
     String username = "root";
     String password = "";
 

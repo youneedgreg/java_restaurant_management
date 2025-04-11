@@ -395,7 +395,7 @@ public class Signup extends javax.swing.JFrame {
     ResultSet phoneResult = null;
 
     try {
-        connection = DriverManager.getConnection("jdbc:mysql://localhost/rms", "root", "");
+        connection = DriverManager.getConnection("jdbc:mysql://localhost/rms?useSSL=false", "root", "");
 
         // Check for existing email
         checkEmailStmt = connection.prepareStatement("SELECT COUNT(*) FROM usertable WHERE email = ?");
