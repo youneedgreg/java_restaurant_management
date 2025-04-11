@@ -27,7 +27,7 @@ public class AdminPage extends javax.swing.JFrame {
     private void salesData() {
         try {
             // Establish connection to the database
-            Connection connection = DriverManager.getConnection("jdbc:mysql://localhost/rms", "root", "");
+            Connection connection = DriverManager.getConnection("jdbc:mysql://localhost/rms?useSSL=false", "root", "");
 
             // Prepare a SQL statement to retrieve the total sale
             String totalSaleQuery = "SELECT SUM(net) AS totalSale FROM bill";
@@ -109,7 +109,7 @@ public class AdminPage extends javax.swing.JFrame {
         private void UserTable() {
         try {
             // Establish connection to the database
-            Connection connection = DriverManager.getConnection("jdbc:mysql://localhost/rms", "root", "");
+            Connection connection = DriverManager.getConnection("jdbc:mysql://localhost/rms?useSSL=false", "root", "");
 
             // Prepare a SQL statement to retrieve data from the usertable
             String query = "SELECT name, address, phone FROM usertable";
@@ -144,7 +144,7 @@ public class AdminPage extends javax.swing.JFrame {
         private void ProductTable() {
         try {
             // Establish connection to the database
-            Connection connection = DriverManager.getConnection("jdbc:mysql://localhost/rms", "root", "");
+            Connection connection = DriverManager.getConnection("jdbc:mysql://localhost/rms?useSSL=false", "root", "");
 
             // Prepare a SQL statement to retrieve data from the products table
             String query = "SELECT product_id, product_name, price, category FROM products ORDER BY category";
