@@ -60,7 +60,7 @@ public Order() {
         categoryComboBox = new JComboBox<>();
         // Add default option
         categoryComboBox.addItem("Select category");
-        String url = "jdbc:mysql://localhost/rms";
+        String url = "jdbc:mysql://localhost/rms?useSSL=false";
         String username = "root";
         String password = "";
 
@@ -89,7 +89,7 @@ public Order() {
     }
     
         private void populateProductTable(JTable productTable, String selectedCategory) {
-            String url = "jdbc:mysql://localhost/rms";
+            String url = "jdbc:mysql://localhost/rms?useSSL=false";
             String username = "root";
             String password = "";
             String selectQuery = "SELECT product_name AS Name FROM products";
@@ -156,7 +156,7 @@ public Order() {
     }
 
     private String getProductDescription(String selectedProductName) {
-        String url = "jdbc:mysql://localhost/rms";
+        String url = "jdbc:mysql://localhost/rms?useSSL=false";
         String username = "root";
         String password = "";
         String selectQuery = "SELECT description FROM products WHERE product_name = ?";
@@ -179,7 +179,7 @@ public Order() {
     }
 
     private String getProductPrice(String selectedProductName) {
-        String url = "jdbc:mysql://localhost/rms";
+        String url = "jdbc:mysql://localhost/rms?useSSL=false";
         String username = "root";
         String password = "";
         String selectQuery = "SELECT price FROM products WHERE product_name = ?";
@@ -202,7 +202,7 @@ public Order() {
     }
 
     private String getProductImagePath(String selectedProductName) {
-        String url = "jdbc:mysql://localhost/rms";
+        String url = "jdbc:mysql://localhost/rms?useSSL=false";
         String username = "root";
         String password = "";
         String selectQuery = "SELECT image_path FROM products WHERE product_name = ?";
@@ -766,7 +766,7 @@ public Order() {
     bill.setText(headerBuilder.toString());
     
     // Now, save totalItem and totalPrice to the bill table
-    Connection connection = DriverManager.getConnection("jdbc:mysql://localhost/rms", "root", "");
+    Connection connection = DriverManager.getConnection("jdbc:mysql://localhost/rms?useSSL=false", "root", "");
     String query = "INSERT INTO bill (net, total) VALUES (?, ?)";
     PreparedStatement preparedStatement = connection.prepareStatement(query);
     preparedStatement.setFloat(1, Float.parseFloat(totalPrice.getText())); // Parse as double
