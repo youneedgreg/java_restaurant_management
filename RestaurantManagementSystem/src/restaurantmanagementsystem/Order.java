@@ -5,7 +5,7 @@ import java.awt.Rectangle;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import javax.imageio.ImageIO;
-import javax.swing.JOptionPane;
+
 import java.awt.Dimension;
 import java.awt.Image;
 import java.awt.event.ActionEvent;
@@ -145,11 +145,23 @@ public Order() {
                     price.setText(selectedProductPrice); // Display product price
 
                     // Load and display image
-                    ImageIcon icon = new ImageIcon(selectedProductImagePath);
-                    Image img = icon.getImage();
-                    Image newImg = img.getScaledInstance(220, 220, Image.SCALE_SMOOTH); // Scale the image
-                    ImageIcon newIcon = new ImageIcon(newImg);
-                    image.setIcon(newIcon); // Set the scaled ImageIcon to the JLabel
+                    if (selectedProductImagePath != null && !selectedProductImagePath.isEmpty()) {
+    File imgFile = new File(selectedProductImagePath);
+    if (imgFile.exists()) {
+        ImageIcon icon = new ImageIcon(selectedProductImagePath);
+        Image img = icon.getImage();
+        Image newImg = img.getScaledInstance(220, 220, Image.SCALE_SMOOTH);
+        ImageIcon newIcon = new ImageIcon(newImg);
+        image.setIcon(newIcon);
+    } else {
+        image.setIcon(null); // or a default "not found" image
+        System.err.println("Image file not found: " + selectedProductImagePath);
+    }
+} else {
+    image.setIcon(null); // or a default image
+    System.err.println("Image path is null or empty.");
+}
+
                 }
             }
         });
