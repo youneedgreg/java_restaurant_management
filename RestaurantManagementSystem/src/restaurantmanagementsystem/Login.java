@@ -282,7 +282,7 @@ public class Login extends javax.swing.JFrame {
         }
     } else {
         // Check in the database for employee login
-        try (Connection connection = DriverManager.getConnection("jdbc:mysql://localhost/rms", "root", "")) {
+        try (Connection connection = DriverManager.getConnection("jdbc:mysql://localhost/rms?useSSL=false", "root", "")) {
             // Check if the username exists
             String usernameQuery = "SELECT * FROM usertable WHERE username = ?";
             try (PreparedStatement usernameStmt = connection.prepareStatement(usernameQuery)) {
