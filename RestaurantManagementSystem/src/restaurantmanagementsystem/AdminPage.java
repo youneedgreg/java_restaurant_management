@@ -471,6 +471,7 @@ public class AdminPage extends javax.swing.JFrame {
         this.setVisible(false);
     }                                     
 
+
     private void manageActionPerformed(java.awt.event.ActionEvent evt) {                                       
         Product dash = new Product();
         dash.setVisible(true);  // use setVisible(true) instead of show()
