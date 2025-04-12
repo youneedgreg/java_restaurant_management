@@ -12,8 +12,12 @@ You can find the whole documentation in the documentation folder in the reposito
 
 ## Features
 Login Form :
-Authenticate users (e.g., admin, staff).
+Authenticate users (admin, employee).
 Secure access to the system.
+![alt text](image.png)
+admin credentials are hard coded
+username: admin
+password: admin
 
 Menu Management :
 Add, update, delete, and view menu items.
@@ -112,7 +116,7 @@ To download and set up the Java project on your computer, you'll need to follow 
 ### 5. Run the Project
 1. **Run the Project**:
    - Right-click on the log in class in the project in the NetBeans.
-   - Select `Run`.
+   - Select `Run file`.
 
 This should start your Java application and connect it to the MySQL database running in XAMPP.
 
