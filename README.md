@@ -18,6 +18,16 @@ Secure access to the system.
 admin credentials are hard coded
 username: admin
 password: admin
+```sh
+username: admin
+password: admin
+```
+
+Signup form
+Create new users (employee).
+Secure access to the system.
+![alt text](image-1.png)
+
 
 Menu Management :
 Add, update, delete, and view menu items.
