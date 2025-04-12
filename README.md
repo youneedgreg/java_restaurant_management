@@ -163,9 +163,6 @@ gregorytemwa1212@gmail.com
 
 ## Support
 
-For support, email work:
- ````sh 
-gregorytemwa1212@gmail.com 
-```` sor follow me on [Instagram](https://www.instagram.com/gr3g5p0v).
+For support, email work: gregorytemwa1212@gmail.com or follow me on [Instagram](https://www.instagram.com/gr3g5p0v).
 
 
