@@ -11,7 +11,7 @@ You can find the whole documentation in the documentation folder in the reposito
 [@greg](https://www.github.com/youneedgreg)
 
 ## Features
-Login Form :
+**Login Form :**
 Authenticate users (admin, employee).
 Secure access to the system.
 ![alt text](image.png)
@@ -23,10 +23,19 @@ username: admin
 password: admin
 ```
 
-Signup form
+**Signup form :**
 Create new users (employee).
 Secure access to the system.
 ![alt text](image-1.png)
+
+**Admin page :**
+Manage menus.
+Manage orders.
+Manage customers.
+Manage reports.
+
+
+
 
 
 Menu Management :
@@ -146,11 +155,17 @@ Generate Reports : View sales summaries and export them if needed.
 
 ## Feedback
 
-If you have any feedback, please reach out to me at work.gregorytemwa1212@gmail.com
+If you have any feedback, please reach out to me at work: 
+````sh
+gregorytemwa1212@gmail.com
+````
 
 
 ## Support
 
-For support, email work.gregorytemwa1212@gmail.com or follow me on [Instagram](https://www.instagram.com/gr3g5p0v).
+For support, email work:
+ ````sh 
+gregorytemwa1212@gmail.com 
+```` sor follow me on [Instagram](https://www.instagram.com/gr3g5p0v).
 
 
