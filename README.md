@@ -93,7 +93,7 @@ To download and set up the Java project on your computer, you'll need to follow 
 ### 2. Set Up XAMPP
 
 1. **Start XAMPP**:
-   - Open the XAMPP Control Panel.
+   - Open the XAMPP Control Panel or download from [here](https://www.apachefriends.org/download.html) then install.
    - Start the Apache and MySQL services.
 
 2. **Import the Database**:
