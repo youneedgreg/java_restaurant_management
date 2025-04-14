@@ -31,9 +31,14 @@ Secure access to the system.
 **Admin page :**
 Manage sales.
 Manage employees.
-Manage products(add/update/delete).
-Manage reports.
+Manage products.
 ![alt text](image-2.png)
+
+**Product page**
+Add products.
+Update products.
+Delete products.
+![alt text](image-3.png)
 
 
 
