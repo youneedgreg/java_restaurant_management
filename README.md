@@ -12,10 +12,10 @@ You can find the whole documentation in the documentation folder in the reposito
 
 ## Features
 **Login Form :**
- -Authenticate users (admin, employee).
- -Secure access to the system.
- -![alt text](image.png)
- -admin credentials are hard coded
+ - Authenticate users (admin, employee).
+ - Secure access to the system.
+ - ![alt text](image.png)
+ - admin credentials are hard coded
 
 ```sh
 username: admin
