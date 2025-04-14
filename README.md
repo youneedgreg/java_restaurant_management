@@ -29,10 +29,11 @@ Secure access to the system.
 ![alt text](image-1.png)
 
 **Admin page :**
-Manage menus.
-Manage orders.
-Manage customers.
+Manage sales.
+Manage employees.
+Manage products(add/update/delete).
 Manage reports.
+![alt text](image-2.png)
 
 
 
@@ -145,13 +146,6 @@ If you encounter any issues, check the following:
 - Ensure the MySQL Connector/J library is correctly added to the project.
 
 By following these steps, you should be able to download, set up, and run the Java project on your computer.
-
-# Usage
-Login : Enter valid credentials to access the system.
-Menu Management : Add, update, or delete menu items.
-Place Orders : Select items, specify quantities, and calculate totals.
-Customer Management : Add new customers or view existing ones.
-Generate Reports : View sales summaries and export them if needed.
 
 ## Feedback
 
