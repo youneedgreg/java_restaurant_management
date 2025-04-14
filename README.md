@@ -40,7 +40,11 @@ Update products.
 Delete products.
 ![alt text](image-3.png)
 
-
+**Order page**
+Place orders.
+Track orders.
+Generate reciepts.
+![alt text](image-4.png)
 
 
 
