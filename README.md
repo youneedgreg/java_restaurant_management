@@ -1,4 +1,5 @@
 # Restaurant Management System
+
 ## Overview
 
 The Restaurant Management System is a Java-based application designed to streamline the operations of a restaurant. It allows users to manage menus, place orders, track customers, and generate reports. The system uses MySQL for data storage and Java Swing with WindowBuilder for the graphical user interface (GUI).
@@ -8,68 +9,52 @@ This project demonstrates the use of Object-Oriented Programming (OOP) principle
 You can find the whole documentation in the documentation folder in the repository.
 
 ## Authors
+
 [@greg](https://www.github.com/youneedgreg)
 
 ## Features
+
 **Login Form :**
- - Authenticate users (admin, employee).
- - Secure access to the system.
- - ![alt text](image.png)
- - admin credentials are hard coded
+
+- Authenticate users (admin, employee).
+- Secure access to the system.
+- ![alt text](image.png)
+- admin credentials are hard coded
 
 ```sh
 username: admin
 password: admin
 ```
 
-**Signup form :**
-Create new users (employee).
-Secure access to the system.
-![alt text](image-1.png)
+**SignUp form :**
+
+- Create new users (employee).
+- Secure access to the system.
+- ![alt text](image-1.png)
 
 **Admin page :**
-Manage sales.
-Manage employees.
-Manage products.
-![alt text](image-2.png)
+
+- Manage sales.
+- Manage employees.
+- Manage products.
+- ![alt text](image-2.png)
 
 **Product page**
-Add products.
-Update products.
-Delete products.
-![alt text](image-3.png)
+
+- Add products.
+- Update products.
+- Delete products.
+- ![alt text](image-3.png)
 
 **Order page**
-Place orders.
-Track orders.
-Generate reciepts.
-![alt text](image-4.png)
 
-
-
-Menu Management :
-Add, update, delete, and view menu items.
-Categorize items into starters, mains, desserts, and drinks.
-
-Order Management :
-Place orders and calculate totals.
-Generate receipts for customers.
-
-Customer Management :
-Add and view customer details (name, phone, email).
-
-Reports :
-Generate sales summaries and order histories.
-
-Graphical User Interface (GUI) :
-Built using Java Swing and WindowBuilder .
-Includes visually appealing forms and dialog windows.
-
-Database Integration :
-MySQL database (restaurant_db) stores all data.
-Efficient data retrieval and manipulation using JDBC.
+- Place orders.
+- Track orders.
+- Generate reciepts.
+- ![alt text](image-4.png)
 
 ## Technologies Used
+
 Programming Language : Java
 Database : MySQL
 IDE : Apache NetBeans
@@ -78,6 +63,7 @@ Database Driver : MySQL Connector/J
 Design Principles : Object-Oriented Programming (OOP)
 
 ## Setup Prerequisites
+
 Java Development Kit (JDK) : Ensure you have JDK 8 or higher installed.
 Apache NetBeans : Install the latest version of Apache NetBeans.
 MySQL Server : Install MySQL Server and create a database named restaurant_db.
@@ -88,10 +74,12 @@ MySQL Connector/J : Download the MySQL Connector/J JAR file from MySQL's officia
 To download and set up the Java project on your computer, you'll need to follow these steps:
 
 ### 1. Download the Project
+
 1. **Clone the Repository (if using Git)**:
    - Open your terminal or command prompt.
    - Navigate to the directory where you want to clone the project.
    - Run the following command:
+
      ```sh
      git clone https://github.com/youneedgreg/java_restaurant_management
      ```
@@ -103,6 +91,7 @@ To download and set up the Java project on your computer, you'll need to follow 
    - Extract the downloaded ZIP file to your desired location.
 
 ### 2. Set Up XAMPP
+
 1. **Start XAMPP**:
    - Open the XAMPP Control Panel.
    - Start the Apache and MySQL services.
@@ -116,6 +105,7 @@ To download and set up the Java project on your computer, you'll need to follow 
      - Choose the SQL file and click `Go`.
 
 ### 3. Open the Project in NetBeans
+
 1. **Open NetBeans**.
 
 2. **Open the Project**:
@@ -124,6 +114,7 @@ To download and set up the Java project on your computer, you'll need to follow 
    - Select the project folder and open it.
 
 ### 4. Configure the Project in NetBeans
+
 1. **Add the MySQL Connector/J Library**:
    - Right-click on the project in the NetBeans `Projects` pane.
    - Select `Properties`.
@@ -135,6 +126,7 @@ To download and set up the Java project on your computer, you'll need to follow 
 2. **Update Database Connection Settings**:
    - Open the Java class that handles the database connection (e.g., `DatabaseConnection.java`).
    - Ensure the database URL, username, and password match the settings in your XAMPP setup. For example:
+
      ```java
      String url = "jdbc:mysql://localhost:3306/mydatabase";
      String user = "root"; // default username
@@ -142,6 +134,7 @@ To download and set up the Java project on your computer, you'll need to follow 
      ```
 
 ### 5. Run the Project
+
 1. **Run the Project**:
    - Right-click on the log in class in the project in the NetBeans.
    - Select `Run file`.
@@ -149,6 +142,7 @@ To download and set up the Java project on your computer, you'll need to follow 
 This should start your Java application and connect it to the MySQL database running in XAMPP.
 
 If you encounter any issues, check the following:
+
 - Ensure XAMPP services (Apache and MySQL) are running.
 - Verify the database connection details (URL, username, password) in your Java code.
 - Ensure the MySQL Connector/J library is correctly added to the project.
@@ -157,14 +151,12 @@ By following these steps, you should be able to download, set up, and run the Ja
 
 ## Feedback
 
-If you have any feedback, please reach out to me at work: 
+If you have any feedback, please reach out to me at work:
+
 ````sh
 gregorytemwa1212@gmail.com
 ````
 
-
 ## Support
 
-For support, email work: gregorytemwa1212@gmail.com or follow me on [Instagram](https://www.instagram.com/gr3g5p0v).
-
-
+For support, email work: <gregorytemwa1212@gmail.com> or follow me on [Instagram](https://www.instagram.com/gr3g5p0v).
